@@ -8,7 +8,11 @@ import statsmodels.api as sm
 from config import modelo
 
 
-ACCIONES = ['EXITO', 'ECOPETROL', 'BCOLOMBIA']
+ACCIONES = ['EXITO', 'ECOPETROL', 'BCOLOMBIA', 'CORFICOLCF', 'PFBCOLOM','GRUPOSURA', 'PFAVAL', 'NUTRESA', 'PFGRUPSURA'
+            'ISA', 'CEMARGOS', 'GRUPOARGOS', 'PFGRUPOARG', 'PFDAVVNDA', 'ICOLCAP', 'EEB', 'CLH', 'CELSIA','PFCEMARGOS',
+            'PFAVH', 'GRUPOAVAL', 'CNEC', 'HCOLSEL', 'BOGOTA', 'ICOLRISK', 'ETB', 'MINEROS', 'BBVACOL', 'CONCONCRET',
+            'PFCARPAK', 'BVC', 'ENKA', 'ELCONDOR', 'PFCORFICOL', 'CARTON', 'FABRICATO', 'COLTEJER'
+]
 
 
 def organizar_matriz(prices, modelo):
