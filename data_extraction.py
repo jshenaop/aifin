@@ -15,6 +15,7 @@ ACCIONES = ['EXITO'] ##, 'ECOPETROL', 'BCOLOMBIA', 'CORFICOLCF', 'PFBCOLOM','GRU
 
 
 
+
 #def organizar_matriz(prices, modelo):
  #   matriz = np.empty([365*2, len(modelo)+1])
   #  for row in (matriz):
